@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <link href="style.css" rel="stylesheet" >
+  <title>Coco Chic Beauty Salon</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="images/coco_logo1.jpg" alt="logo">
+        <h1>Coco Chic Beauty Salon</h1>
+      </div>
+
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+      <ul class="navlinks" id="navlinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#nail-menu">Nails</a></li>
+        <li><a href="#makeup-menu">Make-Up</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home" class="hero">
+    <p>Welcome to Coco Chic Beauty Salon. </p>
+    <a href="#contact" class="btn">Bookings & Enquiries</a>
+  </main>
+
+  <section id="about" class="about">
+    <h2>About</h2>
+    <p>
+    Welcome to <strong>Coco Chic Beauty Salon</strong>, your one-stop destination for elegance, confidence, and self-care.  
+    At Coco Chic, we believe that beauty is more than just appearance - it's about how you feel when you step out into the world.  
+  </p>
+  <p>
+    Our salon specializes in <strong>professional nail artistry and flawless makeup looks</strong>
+    tailored to every occasion.  
+    Whether you're preparing for a big event, treating yourself to some "me-time" or simply wanting a fresh new look,
+    our experienced team is here to cater to you.  
+  </p>
+  <p>
+    We pride ourselves on using high-quality products and the latest techniques to create long-lasting stunning results.  
+    From elegant acrylic and gel nail sets to bold lash applications and soft glam makeovers, we craft each service with precision and care.  
+  </p>
+  <p>
+    At Coco Chic Beauty Salon, every client is treated as a VIP. Our mission is simple:  
+    <em>to help you look and feel your absolute best, inside and out.</em>  
+  </p>
+  </section>
+
+  <section class="nail-menu" id="nail-menu">
+  <h2>Nails</h2>
+    <div class="card-container">
+        <div class="menu-card">
+        <h3>Acrylic Sets</h3>
+        <ul class="price-list">
+            <li>Short <span>R90</span></li>
+            <li>Medium <span>R120</span></li>
+            <li>Long <span>R150</span></li>
+        </ul>
+        </div>
+
+        <div class="menu-card">
+        <h3>Poly Gel Sets</h3>
+        <ul class="price-list">
+            <li>Short <span>R170</span></li>
+            <li>Medium <span>R200</span></li>
+            <li>Long <span>R220</span></li>
+        </ul>
+        </div>
+
+        <div class="menu-card">
+        <h3>Pedicure</h3>
+        <ul class="price-list">
+            <li>Gel <span>R90</span></li>
+            <li>Acrylic <span>R70</span></li>
+            <li>Nail Art <span>R5/nail</span></li>
+            <li>Soak off (my work) <span>R20</span></li>
+            <li>Soak off (foreign) <span>R50</span></li>
+        </ul>
+         </div>
+        </div>
+    </section>
+
+    <section id="makeup-menu" class="makeup-menu">
+    <h2>Make-Up</h2>
+    <div class="card-container-makeup">
+        <div class="card-menu-makeup">
+        <h3>Make-Up</h3>
+        <ul class="price-list">
+            <li>Natural Look (excl lashes) <span>R220</span></li>
+            <li>Soft Glam (incl lashes) <span>R320</span></li>
+            <li>Face Beat (incl lashes) <span>R370</span></li>
+        </ul>
+        </div>
+
+        <div class="card-menu-makeup">
+            <h3>Lashes</h3>
+            <ul class="price-list">
+            <li>Strip (yours) <span>R20</span></li>
+            <li>Strip (mine) <span>R59</span></li>
+            <li>Cluster <span>R90</span></li>
+            <li>Cat Eye <span>R120</span></li>
+        </ul>
+        </div>
+        </div>
+    </section>
+
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form action="mailto:mohalepaballo4@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <select name="selector" id="selector" required>
+        <option value="">Select an option</option>
+        <option value="nails">Nails</option>
+        <option value="make">Make-Up</option>
+        <option value="both">Both</option>
+      </select>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+
+    <div class="contact-info">
+      <p><strong>Bookings & Enquiries</strong></p>
+      <p class="phone">079 586 3089</p>
+      <p>10631/2 Kedijang St, Dobsonville</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Coco Chic Beauty Salon</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
