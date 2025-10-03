@@ -25,7 +25,7 @@ Built with **HTML, CSS, and JavaScript**.
 📂 **Project Structure**
 
 coco-chic/
-  |--images/
-  |--index.html
-  |--style.css
-  |--script.js
+  --images/
+  --index.html
+  --style.css
+  --script.js
