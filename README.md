@@ -9,7 +9,7 @@ Built with **HTML, CSS, and JavaScript**.
 
 📸 **Preview**
 
-'![Preview](./images/preview.png)'
+'![Preview](../images/preview.png)'
 
 ✨ **Features**
 
