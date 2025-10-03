@@ -4,7 +4,7 @@ A modern, responsive website for **Coco Chic Beauty Salon**, showcasing services
 Built with **HTML, CSS, and JavaScript**.
 
 🚀 **Live Demo**
-[Visit the website here](https://your-vercel-link.vercel.app)
+[Visit the website here](https://coco-chic-beauty-salon-kixe.vercel.app/)
 
 📸 **Preview**
 (Add a screenshot of your website here, e.g. `![Preview](./images/preview.png)`)
@@ -20,7 +20,7 @@ Built with **HTML, CSS, and JavaScript**.
 - HTML5  
 - CSS3  
 - JavaScript  
-- [Vercel](https://vercel.com) for deployment  
+- [Vercel](https://coco-chic-beauty-salon-kixe.vercel.app/) for deployment  
 
 📂 **Project Structure**
 
