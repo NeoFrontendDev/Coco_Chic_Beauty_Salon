@@ -23,6 +23,7 @@ Built with **HTML, CSS, and JavaScript**.
 - [Vercel](https://vercel.com) for deployment  
 
 📂 **Project Structure**
+
 coco-chic/
   |--images/
   |--index.html
