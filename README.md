@@ -7,10 +7,6 @@ Built with **HTML, CSS, and JavaScript**.
 
 [Visit the website here](https://coco-chic-beauty-salon-kixe.vercel.app/)
 
-📸 **Preview**
-
-'![Preview](../images/preview.png)'
-
 ✨ **Features**
 
 - Clean and professional design  
@@ -24,12 +20,4 @@ Built with **HTML, CSS, and JavaScript**.
 - HTML5  
 - CSS3  
 - JavaScript  
-- [Vercel](https://coco-chic-beauty-salon-kixe.vercel.app/) for deployment  
-
-📂 **Project Structure**
-
-coco-chic/
-  -images/
-  -index.html
-  -style.css
-  -script.js
+- [Vercel](https://vercel.com/) for deployment
